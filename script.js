@@ -1,12 +1,21 @@
 function highlight() {
-    //Write your code here
+    const strele = document.getElementsByTagName("strong");
+
+    for(let i = 0; i < strele.length; i++){
+        strele[i].classList.add("green");
+    }
 
 
 }
 
 
 function return_normal() {
-    //Write your code here
+    const normele =  document.getElementsByTagName("strong");
+
+    for(let i = 0; i < normele.length; i++){
+        normele[i].classList.add("black");
+    }
+
 
     
 }
